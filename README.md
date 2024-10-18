@@ -40,26 +40,25 @@ node -v
 If Node.js is not installed or the version is lower than 10.16, please follow install/update instructions on [Node.js website](https://nodejs.org/en/).
 
 ### Use without installing locally
+
 ```
-npx quip-export [options]
+npx "jspiro/quip-export" [options]
 ```
+
 Advantage: you always run the latest version.
 
-### Install and usage as global npm package
-Install:
-```
-npm install -g quip-export
-```
-
 Usage example:
+
 ```
 quip-export [options]
 ```
 
 ### Install and usage as a GitHUb project
+
 Install:
+
 ```
-git clone https://github.com/sonnenkern/quip-export.git
+git clone https://github.com/jspiro/quip-export.git
 ```
 
 Install project dependencies:
